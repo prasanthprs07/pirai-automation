@@ -27,16 +27,6 @@ public class DataDrivenAdduser {
 
 			
 			Thread.sleep(2000); // Wait for 1 second
-			// Open the specified URL in the browser
-			driver.get("http://laudea.test.psgst.psgtech.ac.in/service-desk-ui/dashboard");Thread.sleep(2000); // Wait for 1 second
-			// Open the specified URL in the browser
-			driver.get("http://laudea.test.psgst.psgtech.ac.in/service-desk-ui/dashboard");Thread.sleep(2000); // Wait for 1 second
-			// Open the specified URL in the browser
-			driver.get("http://laudea.test.psgst.psgtech.ac.in/service-desk-ui/dashboard");Thread.sleep(2000); // Wait for 1 second
-			// Open the specified URL in the browser
-			driver.get("http://laudea.test.psgst.psgtech.ac.in/service-desk-ui/dashboard");Thread.sleep(2000); // Wait for 1 second
-			// Open the specified URL in the browser
-			driver.get("http://laudea.test.psgst.psgtech.ac.in/service-desk-ui/dashboard");
 			
 			// Locate the username input field and enter "sysadmin"
 			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
@@ -151,4 +141,5 @@ public class DataDrivenAdduser {
 		driver.manage().window().maximize(); // Maximize the browser window
 		addUsersFromExcel("C:\\Users\\PST20171107\\Downloads\\Sample Template (19).xlsx");
 	}
+
 }
