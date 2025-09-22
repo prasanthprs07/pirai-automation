@@ -25,6 +25,19 @@ public class DataDrivenAdduser {
 			// Open the specified URL in the browser
 			driver.get("http://laudea.test.psgst.psgtech.ac.in/service-desk-ui/dashboard");
 
+			
+			Thread.sleep(2000); // Wait for 1 second
+			// Open the specified URL in the browser
+			driver.get("http://laudea.test.psgst.psgtech.ac.in/service-desk-ui/dashboard");Thread.sleep(2000); // Wait for 1 second
+			// Open the specified URL in the browser
+			driver.get("http://laudea.test.psgst.psgtech.ac.in/service-desk-ui/dashboard");Thread.sleep(2000); // Wait for 1 second
+			// Open the specified URL in the browser
+			driver.get("http://laudea.test.psgst.psgtech.ac.in/service-desk-ui/dashboard");Thread.sleep(2000); // Wait for 1 second
+			// Open the specified URL in the browser
+			driver.get("http://laudea.test.psgst.psgtech.ac.in/service-desk-ui/dashboard");Thread.sleep(2000); // Wait for 1 second
+			// Open the specified URL in the browser
+			driver.get("http://laudea.test.psgst.psgtech.ac.in/service-desk-ui/dashboard");
+			
 			// Locate the username input field and enter "sysadmin"
 			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
